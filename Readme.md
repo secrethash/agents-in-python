@@ -58,7 +58,7 @@ Give a spec, and a team of agents (Planner → Coder → Tester → Debugger) co
 
 | Layer           | Recommended                         | Used                             |
 |-----------------|-------------------------------------|----------------------------------|
-| LLM API         | Anthropic (claude-sonnet) or OpenAI | Ollama + Qwen2.5-7B              |
+| LLM API         | Anthropic (claude-sonnet) or OpenAI | Ollama + qwen2.5:7B              |
 | Agent Framework | Raw Python first, then LangGraph    | Raw Python first, then LangGraph |
 | Memory          | ChromaDB or FAISS                   | ChromaDB                         |
 | Tool Execution  | Function calling / MCP              | Function calling                 |
